@@ -24,7 +24,7 @@ classifiers = [
 ]
 dependencies = [
     "bitstruct>=8.16.1",
-    "python-can>=3.3.4",
+    "python-can @ git+https://github.com/zariiii9003/python-can@cli-api",
     "textparser>=0.21.1",
     "diskcache",
     "argparse_addons",
